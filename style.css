@@ -1,0 +1,232 @@
+.marketing .col-lg-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.gradient-background-2 {
+  background: linear-gradient(-45deg, #073357, #197cce, #89c2d9, #7acfdb);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+.gradient-background-3 {
+  background: linear-gradient(-45deg, #073357, #197cce, #197cce, #073357);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+.subrayado {
+  width: 900px;
+  height: 10px;
+  border-radius: 25px;
+  animation-timing-function: steps(10, end);
+}
+/* Custom animation class that only contains the animation properties needed */
+
+/* Gradient background animation */
+.gradient-background {
+  background: linear-gradient(
+    -45deg,
+    #020e18,
+    #073357,
+    #197cce,
+    #89c2d9,
+    #7acfdb,
+    #cfebf0,
+    #f4ede3,
+    #cfebf0,
+    #7acfdb,
+    #89c2d9,
+    #197cce,
+    #073357,
+    #020e18
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+.gradient-background-linea {
+  background: linear-gradient(-45deg, #073357, #197cce, #89c2d9, #7acfdb);
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#animated-text {
+  opacity: 0;
+}
+
+.skill-row {
+  opacity: 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#btn-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.back-to-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00638c;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.back-to-top-btn:hover {
+  background-color: #00354d;
+}
+
+.back-to-top-btn svg {
+  margin-right: 5px;
+}
+
+.subrayado {
+  height: 10px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#skills {
+  height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+  .subrayado {
+    width: 100%;
+  }
+  .botonsillo {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .skill-row {
+    width: 100%;
+  }
+  #skills {
+    height: auto;
+  }
+}
+.jumbotron-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-navbar-toggler {
+  background: linear-gradient(-45deg, #073357, #197cce, #89c2d9);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+.navbar-nav .nav-link:hover {
+  background: linear-gradient(-45deg, #073357, #197cce, #89c2d9);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  transition: 0.5s;
+}
+.navbar-nav .nav-item {
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  padding: 15px 0;
+  border-radius: 5px;
+}
+
+.navegacion {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.boton-nav {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
